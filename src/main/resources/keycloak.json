@@ -1,0 +1,11 @@
+{
+  "realm": "spring-security-sso",
+  "auth-server-url": "http://localhost:8081/auth",
+  "ssl-required": "external",
+  "resource": "app-greeting-service",
+  "credentials": {
+    "secret": "9e3956b0-34b2-4a48-8f7a-cc7450e879c8"
+  },
+  "use-resource-role-mappings":true,
+  "principal-attribute": "preferred_username"
+}

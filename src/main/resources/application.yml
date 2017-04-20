@@ -1,0 +1,14 @@
+server:
+  port: 20000
+
+keycloak:
+  configurationFile: classpath:keycloak.json
+
+
+logging:
+  level:
+    org.springframework.security.web.FilterChainProxy: debug
+
+management:
+  context-path: /admin/system
+
